@@ -3,15 +3,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
-}
-body{
-  background: #008cff;
+
   @font-face {
     font-family:rudawbold ;
     src: url(rudawbold.ttf);
   }
 }
+body{
+  background-color: #2776bd;
+  @font-face {
+    font-family:rudawbold ;
+    src: url(rudawbold.ttf);format(ttf)
+  }
+}
+
 .main-box{
   position: absolute;
   left: 50%;
@@ -43,9 +48,9 @@ body{
   top: 0;
   font-size: 20px;
   font-weight: 600;
-  color: #2980b9;
+  color: #000000;
   line-height: 50px;
-  background: #fff;
+  background: rgba(252, 252, 251, 0.849);
   letter-spacing: 1px;
   border-radius: 25px;
   opacity: 0;
@@ -68,7 +73,7 @@ body{
   left: 50%;
   transform: translateX(-50%);
   background: rgb(255, 255, 255);
-  padding: 10px;
+  padding: 5px;
   border-radius: 25px;
   transition: all 0.4s ease;
 }
@@ -87,7 +92,7 @@ body{
   transform: translateX(-50%) rotate(45deg);
   height: 30px;
   width: 30px;
-  background: #fff;
+  background: rgb(255, 254, 254);
   z-index: -1;
 }
 .image-box img{
@@ -98,7 +103,7 @@ body{
 }
 .image-box .about{
   position: absolute;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.507);
   height: 100%;
   width: 100%;
   left: 0;
@@ -111,6 +116,7 @@ body{
 }
 #check:checked ~ .image-box .about{
   opacity: 1;
+
 }
 .about .details{
   position: absolute;
@@ -128,7 +134,7 @@ body{
 
   font-size: 18px;
   font-weight: 500;
-  color: rgb(238, 255, 0);
+  color: rgb(217, 255, 0);
   @font-face {
     font-family:rudawbold;
     src: url(font/rudawbold.ttf);
@@ -150,7 +156,7 @@ body{
  
 .details .icon i:hover{
   transform: scale(1.2);
-  color: #008cff;
-  background-color:#00000052;
-  
+  color: #002fff;
+  background-color:rgb(228, 228, 228);
+
 }
